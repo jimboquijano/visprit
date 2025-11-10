@@ -88,7 +88,7 @@ export default class {
    * @returns {boolean}
    */
   #isAnimating() {
-    const glanced = this.el.getAttribute('data-swglanced')
+    const glanced = this.el.getAttribute('vs-glanced')
 
     if (glanced && glanced == 0) {
       return true

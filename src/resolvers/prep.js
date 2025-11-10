@@ -23,7 +23,7 @@ export default {
 
     if (animJson.hasCascade) {
       els.forEach((el) => {
-        el.setAttribute('data-swcascade', 1)
+        el.setAttribute('vs-cascade', 1)
         el.parentElement.style.perspective = perspective
       })
     }
@@ -50,7 +50,7 @@ export default {
    */
   hasMask({ animJson, el }) {
     if (animJson.hasMask) {
-      el.setAttribute('data-swmask', 1)
+      el.setAttribute('vs-mask', 1)
     }
   },
 

@@ -39,7 +39,7 @@ export default class {
     }
 
     this.Node.prepare(() => {
-      this.el.setAttribute('data-swglanced', 0)
+      this.el.setAttribute('vs-glanced', 0)
     })
 
     let duration
@@ -48,7 +48,7 @@ export default class {
     })
 
     this.Node.timeout(duration, () => {
-      this.el.setAttribute('data-swglanced', 1)
+      this.el.setAttribute('vs-glanced', 1)
       this.Node.unprepare()
     })
 

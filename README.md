@@ -2,6 +2,8 @@
 
 Visprit is an animation library that provides **glance** and **scroll** animations for DOM elements. It’s designed to be performant and highly configurable via JSON attributes.
 
+> Currently WIP - version 0.1.3
+
 ## Installation
 
 ### Via npm
